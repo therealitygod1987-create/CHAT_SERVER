@@ -7,4 +7,4 @@ services:
     startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: ACCESS_PASSWORD
-        value: >:3
+        value: ">:3"
